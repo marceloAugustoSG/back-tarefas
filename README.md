@@ -85,4 +85,4 @@ Content-Type: application/json
 - [PostgreSQL](https://www.postgresql.org/)  
 
 ---
-📖 Projeto desenvolvido para estudos com NestJS.
+📖 Projeto desenvolvido para aprovação de teste técnico. Marcelo Augusto Soares Gomes
