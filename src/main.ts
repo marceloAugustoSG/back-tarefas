@@ -6,7 +6,7 @@ async function bootstrap() {
 
   // Habilita CORS
   app.enableCors({
-    origin: ['https://front-tarefas1-awbm.vercel.app/'], // substitua pela porta do seu frontend
+    origin: ['https://front-tarefas1-awbm-mqjje7628.vercel.app/'], // substitua pela porta do seu frontend
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true, // se precisar enviar cookies
   });
