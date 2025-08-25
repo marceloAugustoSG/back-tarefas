@@ -4,15 +4,15 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-  // Habilita CORS
+  // Habilita CORS para qualquer origem
   app.enableCors({
-    origin: ['https://front-tarefas1-awbm-mqjje7628.vercel.app/'], // substitua pela porta do seu frontend
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    credentials: true, // se precisar enviar cookies
+    origin: true,       // true permite qualquer domínio
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+    credentials: true,  // permite envio de cookies
   });
 
   const port = process.env.PORT || 3000;
-  await app.listen(port, '0.0.0.0'); // <- aqui é o importante
+  await app.listen(port, '0.0.0.0'); // importante para rodar em containers
   console.log(`App rodando na porta ${port}`);
 }
 bootstrap();
