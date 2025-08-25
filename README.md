@@ -8,7 +8,7 @@ Backend desenvolvido em **NestJS** com **Prisma** e **PostgreSQL** para gerencia
 
 ### 1. Clonar o repositório
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repo.git
+git clone [https://github.com/seu-usuario/nome-do-repo.git](https://github.com/marceloAugustoSG/back-tarefas.git
 cd nome-do-repo
 ```
 
