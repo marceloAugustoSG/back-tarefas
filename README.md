@@ -46,7 +46,8 @@ yarn start:prod
 - **GET** `/tarefas` → Lista todas as tarefas  
 - **POST** `/tarefas` → Cria uma nova tarefa  
 - **GET** `/tarefas/:id` → Busca uma tarefa pelo ID  
-- **PUT** `/tarefas/:id` → Atualiza uma tarefa existente  
+- **PUT** `/tarefas/:id` → Atualiza uma tarefa existente
+- **PUT** `/tarefas/:id/mover` → Atualiza uma tarefa existente pra ser movida no drag in drop 
 - **DELETE** `/tarefas/:id` → Remove uma tarefa  
 
 ---
